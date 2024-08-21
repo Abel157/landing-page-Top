@@ -43,16 +43,12 @@ a {
     max-width: 480px;
     flex:initial;
 }
-.img1{
-   
-    
-}
 .signup{
-    background-color: #367ae7;
+    background-color: #3882f6;
     padding: 4px 18px;
     border-radius: 8px;
     outline-style: none;
-    border-color: #367ae7;
+    border-color: #3882f6;
     color: white;
     cursor: pointer;
 }
@@ -89,6 +85,7 @@ a {
 .images{
     display: flex;
     margin-top: 14px;
+    margin-bottom: 14px;
 }
 .items{
     display: flex;
@@ -96,4 +93,42 @@ a {
     align-items: center;
     text-align: center;
     font-family: inherit;
+}
+.quote{
+    background-color: #E5E7EB;
+    padding: 50px 200px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    margin-top: 14px;
+}
+.call{
+    margin:80px 60px;
+    background-color: #3882f6;
+    display: flex;
+    gap: 50px;
+    padding:30px 120px;
+    color:#F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.call h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.call .signup{
+    align-self: center;
+    border-color: #F9FAF8;
+    margin-left: auto;
+}
+.calltxt{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
 }
