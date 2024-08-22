@@ -16,6 +16,7 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    white-space: nowrap;
 }
 a {
     color: #E5E7EB;
@@ -32,16 +33,20 @@ a {
     margin-left: auto;
     gap:20px;
     font-size: 18px;
-    
-    
+    flex-wrap: wrap;
 }
 .hero{
     display: flex;
     justify-content: space-around;
+    gap: 32px;
 }
 .herotxt{
     max-width: 480px;
     flex:initial;
+}
+.herotxt p{
+    margin-top: 0;
+    margin-bottom: 32.16px;
 }
 .signup{
     background-color: #3882f6;
@@ -69,13 +74,15 @@ a {
     padding: 16px 110px;
 }
 .imgs{
-    border: 3px solid #3882f6;
+    border: 3px solid #1F2937;
     border-radius: 8px;
     
 }
 .info .images p{
     font-size: 18px;
     color: #525a66;
+    flex: 0 1 auto;
+    width:200px;
 }
 .info h2{
     font-size: 36px;
@@ -86,6 +93,9 @@ a {
     display: flex;
     margin-top: 14px;
     margin-bottom: 14px;
+    gap: 8px;
+    flex-wrap: wrap;
+
 }
 .items{
     display: flex;
@@ -93,6 +103,7 @@ a {
     align-items: center;
     text-align: center;
     font-family: inherit;
+    
 }
 .quote{
     background-color: #E5E7EB;
@@ -101,6 +112,11 @@ a {
     color: #1f2937;
     font-weight: lighter;
     margin-top: 14px;
+    font-style: italic;
+}
+.nm{
+    font-style: normal;
+    text-align: end;
 }
 .call{
     margin:80px 60px;
@@ -111,6 +127,7 @@ a {
     color:#F9FAF8;
     font-size: 18px;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 .call h2 {
     font-size: 20px;
@@ -126,6 +143,11 @@ a {
     display: flex;
     flex-direction: column;
     align-self: center;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
 }
 .footer{
     background-color: #1F2937;
