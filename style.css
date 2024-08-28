@@ -157,5 +157,10 @@ a {
     text-align: center;
 }
 .img1{
-    flex-grow: 1;
+    flex-grow: 0;
+    height: auto;
+    flex-shrink: 20;
+    min-width: 0px;
+    max-width: 500px;
+
 }
