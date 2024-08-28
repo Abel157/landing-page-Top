@@ -39,6 +39,8 @@ a {
     display: flex;
     justify-content: space-around;
     gap: 32px;
+    flex-wrap: wrap-reverse;
+    
 }
 .herotxt{
     max-width: 480px;
@@ -153,4 +155,7 @@ a {
     background-color: #1F2937;
     color: #F9FAF8;
     text-align: center;
+}
+.img1{
+    flex-grow: 1;
 }
